@@ -91,6 +91,7 @@
                         <keywords>common answers, common questions</keywords>
                     </t>
                     <t t-snippet="website.s_features_grid" t-thumbnail="/website/static/src/img/snippets_thumbs/s_features_grid.svg"/>
+                    <!-- <t t-snippet="website.s_konvergo" t-thumbnail="/website/static/src/img/snippets_thumbs/s_konvergo.svg"/> -->
                     <t t-snippet="website.s_table_of_content" t-thumbnail="/website/static/src/img/snippets_thumbs/s_table_of_content.svg"/>
                     <t t-snippet="website.s_product_catalog" t-thumbnail="/website/static/src/img/snippets_thumbs/s_product_catalog.svg">
                         <keywords>menu, pricing</keywords>

@@ -3,6 +3,11 @@
 
 <!-- Template -->
 <template id="s_masonry_block" name="Masonry">
+    <section class="s_title pt32 pb32" data-vcss="001">
+        <div class="container s_allow_columns">
+            <h1 style="text-align: center;"><font style="font-size: 62px;">Test titre</font></h1>
+        </div>
+    </section>
     <section class="s_masonry_block" data-vcss="001">
         <div class="container-fluid">
             <div class="row">
@@ -13,7 +18,7 @@
                 <div class="col-lg-6">
                     <div class="row h-100">
                         <div class="col-lg-6 pt24 pb8 text-center o_cc o_cc3" data-name="Block">
-                            <h3>A great title</h3>
+                            <h3>A great titleprout</h3>
                             <p>And a great subtitle</p>
                         </div>
                         <div class="col-lg-6 pt24 pb8 text-center bg-200" data-name="Block">

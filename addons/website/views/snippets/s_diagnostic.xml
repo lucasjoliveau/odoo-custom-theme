@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
 
-<template id="s_call_to_action" name="Diagnostic">
-    <section>
-            <form id="form-diagnostic">
+<template id="s_call_to_action" name="Diagnostic client">
+    <section class="s_title pt32 pb32" data-vcss="001">
+        <form id="form-diagnostic">
   <label for="industrie">Je suis:</label>
   <select id="industrie" name="industrie">
     <option value="industrie1">Industrie 1</option>
@@ -18,6 +18,8 @@
   </select>
   <button type="submit">Trouver</button>
 </form>
+
+
     </section>
 </template>
 

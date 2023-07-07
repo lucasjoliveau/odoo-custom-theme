@@ -36,6 +36,7 @@
         'views/snippets/s_banner.xml',
         'views/snippets/s_text_block.xml',
         'views/snippets/s_features.xml',
+        'views/snippets/s_konvergo.xml',
         'views/snippets/s_three_columns.xml',
         'views/snippets/s_picture.xml',
         'views/snippets/s_carousel.xml',

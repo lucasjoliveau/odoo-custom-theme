@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="s_options" inherit_id="website.snippets">
+        <xpath expr="//div[@id='snippet_structure']//we-row[last()]" position="after">
+            <t t-snippet="website.s_konvergo" t-thumbnail="/module_konvergo/static/src/img/s_konvergo.svg"/>
+        </xpath>
+    </template>
+</odoo>

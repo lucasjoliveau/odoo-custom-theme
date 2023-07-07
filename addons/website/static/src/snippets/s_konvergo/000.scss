@@ -1,0 +1,22 @@
+.data-source {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1200px;
+    
+    &__warehouse {
+    border-radius: var(6px);
+    border: 1px solid rgba(124, 127, 131, 0.30);
+    background: #FFF;
+    display: inline-flex;
+    padding: 13px 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    }
+    
+    img {
+      width: 110px;
+      height: 42px;
+      flex-shrink: 0;
+    }
+  }

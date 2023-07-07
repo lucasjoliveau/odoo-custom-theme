@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+<!-- Template -->
+<template id="s_konvergo" name="Konvergo">
+<section class="data-source">
+  <div class="data-source__warehouse">svp</div>
+    <div class="data-source__warehouse">mdr</div>
+    <div class="data-source__warehouse">tu pue</div>
+    <div class="data-source__warehouse">mec</div>
+    <div class="data-source__warehouse">lol</div>
+</section>
+<style>
+.data-source {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.data-source__warehouse {
+  border-radius: 6px;
+  border: 1px solid rgba(124, 127, 131, 0.3);
+  background: #FFF;
+  display: inline-flex;
+  padding: 13px 20px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.data-source img {
+  width: 110px;
+  height: 42px;
+  flex-shrink: 0;
+}
+</style>
+</template>
+
+<!-- Assets -->
+<template id="assets_snippet_s_konvergo_000" inherit_id="website.assets_frontend">
+    <xpath expr="//link[last()]" position="after">
+        <link rel="stylesheet" type="text/scss" href="/website/static/src/snippets/s_konvergo/000.scss"/>
+    </xpath>
+</template>
+
+
+</odoo>
